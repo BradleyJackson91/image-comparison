@@ -12,7 +12,7 @@ namespace ImageComparriosn.src
     {
         internal static void compareImages(ref DeepAIComparison daic)
         {
-            DeepAI_API api = new DeepAI_API(apiKey: "3251f350-195b-43f2-9acc-376784306381");
+            DeepAI_API api = new DeepAI_API(apiKey: "<INSERT API KEY HERE>");
 
             StandardApiResponse resp = api.callStandardApi("image-similarity", new
             {
